@@ -1,6 +1,24 @@
-.container {
+body {
+    background-color: #F6EDD9;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+  }
+  .card {
     width: 60%;
-}
-.row {
-    margin-top: 5px;
-}
+    min-width: 570px;
+    padding: 20px;
+    margin: 40px auto;
+    background-color: #ACBE63;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 31px 1px rgba(143,143,143,0.69);
+  -moz-box-shadow: 10px 10px 31px 1px rgba(143,143,143,0.69);
+  box-shadow: 10px 10px 31px 1px rgba(143,143,143,0.69);
+  }
+  .btn {
+    background-color: #ffffff;
+  }
+  #tip {
+    min-width: 118px;
+  }
+  #total {
+    min-width: 142px;
+  }

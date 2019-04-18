@@ -12,50 +12,60 @@
 </head>
 <body>
 
-    <div class="container-fluid">
-    
-                <!-- Contains whole calculator -->
-        <div class="container">
+        <head>
+                <title>Tip Calculator</title>
+              </head>
+              
+              <body>
+                <div class="container-fluid">
                   
-                  <!-- Bill Amount -->
-                  
-            <div class="input-group input-group-lg" style="margin-top: 10px;">
-              <div class="input-group-prepend">
-                <span class="input-group-text">Bill Amount</span>
+                  <!-- Contains whole calculator -->
+                  <div class="container card">
+                    <div class="card-title">
+                      <h4 style="text-align: center; font-weight: bold; font-size: 30px;">Tip Calculator</h4><hr style="width: 90%;">
+                    </div>
+                    <div class="card-body">
+                    
+                    <!-- Bill Amount -->
+                    
+              <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Bill Amount $</span>
+                </div>
+                <input type="text" class="form-control" id="bill-amount" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="0.00">
               </div>
-              <input type="text" class="form-control" id="bill-amount" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="$0.00">
-            </div>
-                  <!-- Tip Calculation Buttons -->
-                  
-                  <div class="row">
+                    <!-- Tip Calculation Buttons -->
                     
-                    <div class="col-sm-2">
-                      <button class="btn btn-outline-info" id="tip20">20%</button>
-                    </div>
-                    
-                    <div class="col-sm-2">
-                      <button class="btn btn-outline-info" id="tip15">15%</button>
-                    </div>
-                    
-                    <div class="col-sm-4">
-                      <div class="form-control" id="tip">Tip: 
+                    <div class="row" style="margin-top: 5px;">
+                      
+                      <div class="col-sm-2">
+                        <button class="btn btn-outline-info" id="tip20">20%</button>
                       </div>
-                    </div>
-                    
-                    <div class="col-sm-4">
-                      <div class="form-control" id="total">
-                        Total: 
+                      
+                      <div class="col-sm-2">
+                        <button class="btn btn-outline-info" id="tip15">15%</button>
                       </div>
+                      
+                      <div class="col-sm-4">
+                        <div class="form-control" id="tip">Tip: 
+                        </div>
+                      </div>
+                      
+                      <div class="col-sm-4">
+                        <div class="form-control" id="total">
+                          Total: 
+                        </div>
+                      </div>
+                      
                     </div>
                     
+                    <!-- Closes calculator container -->
+                    </div>
                   </div>
-                  
-                  <!-- Closes calculator container -->
-                  
-        </div>
-            
-                <!-- Closes fluid body container -->
-     </div>
-    
+              
+                  <!-- Closes fluid body container -->
+                </div>
+              </body>
+              
 </body>
 </html>
